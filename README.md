@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# DermAI Coach
 
-# Run and deploy your AI Studio app
+A privacy-focused, AI-powered skin health tracking application built with React, Tailwind CSS, and Google Gemini 3 Pro.
 
-This contains everything you need to run your app locally.
+## 🚀 Deployment Guide (Vercel)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1S1SbjNEYRGZKGkPvRyzcdNJuIDV0h15i
+1.  **Push to GitHub**: Ensure this code is pushed to a GitHub repository.
+2.  **Import in Vercel**:
+    *   Go to [Vercel](https://vercel.com).
+    *   Click "Add New..." -> "Project".
+    *   Select your GitHub repository.
+3.  **Configure Environment Variables** (Critical Step):
+    *   In the "Configure Project" screen (or later in Settings), look for **Environment Variables**.
+    *   Add the following:
+        *   **Key**: `API_KEY`
+        *   **Value**: `[Your Google Gemini API Key]`
+4.  **Deploy**: Click "Deploy".
 
-## Run Locally
+## 🛠 Local Development
 
-**Prerequisites:**  Node.js
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
+2.  Create a `.env` file in the root directory:
+    ```
+    API_KEY=your_google_api_key_here
+    ```
+3.  Start the server:
+    ```bash
+    npm run dev
+    ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚠️ Medical Disclaimer
+DermAI Coach is a wellness tracking tool, **NOT** a diagnostic medical device. Users are explicitly warned to consult professional dermatologists for diagnosis and treatment.

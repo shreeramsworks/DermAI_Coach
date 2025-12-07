@@ -1,0 +1,18 @@
+# DermAI Coach
+
+## Project Overview
+DermAI Coach is a privacy-focused, AI-powered web application designed to help users track and manage chronic skin conditions. It utilizes Google's Gemini 3 Pro multimodal model to analyze user-submitted photos and text descriptions, providing non-medical visual observations and wellness advice.
+
+## Core Capabilities
+- **Visual Analysis**: detailed, non-clinical observation of skin texture, color, and patterns.
+- **Symptom Logging**: summarizing user-reported sensations (itching, pain) and emotional state.
+- **Evidence-Based Grounding**: uses Google Search to cross-reference wellness tips with high-authority medical sources.
+- **Local Privacy**: processes images in-session without permanent server-side storage.
+
+## Architecture
+- **Frontend**: React 19, Tailwind CSS
+- **AI Integration**: @google/genai SDK (Gemini 3 Pro)
+- **Deployment**: Static SPA (Single Page Application)
+
+## Medical Disclaimer
+This tool is for informational and self-tracking purposes only. It does NOT provide medical diagnoses, prescriptions, or treatment plans. It strictly acts as a supportive wellness validator.

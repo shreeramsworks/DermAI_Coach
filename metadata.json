@@ -1,0 +1,5 @@
+{
+  "name": "DermAI Coach",
+  "description": "A supportive AI assistant for tracking skin conditions and providing wellness advice. Not a medical diagnostic tool.",
+  "requestFramePermissions": []
+}
